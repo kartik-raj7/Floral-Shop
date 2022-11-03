@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #f4d9b7;
+}
+.navbar-f{
+  display: flex;
+  flex-direction: column;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    .logo{
+        margin-right: auto;
+    }
+}
+.social-icons{
+    padding: 25px 15px 0px 15px;
+    cursor:pointer;
+}
+.navbar-items{
+    border: 2px solid #ea8a76;
+}
+.navbar-div{
+    padding-bottom: 12px;
+}
+.navbar-li-items{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    cursor: pointer;
+}
+.list-items{
+    padding: 8px 8px 8px 8px;
+}
+.logo{
+    margin-left: 30px;
+    width:205px;
+    height:85px
+}

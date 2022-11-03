@@ -1,0 +1,25 @@
+body{
+    background-color: #f4d9b7;
+}
+.main-p{
+    background-color: #f4d9b7;
+}
+.mainp{
+    display: flex;
+    flex-direction: row;
+    .text{
+        padding:150px 50px 50px 100px;
+        font-size: 45px;
+        color: #ea8a76;
+    }
+    
+}
+.im{
+    margin-left:auto;
+    padding: 20px 20px 20px 20px;
+    img{
+        border-radius: 50%;
+        border:2px solid #ea8a76;
+    }
+}
+
