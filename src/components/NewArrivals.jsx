@@ -23,7 +23,7 @@ const data = {
   
 };
 
-function Rating({ rating, numReviews }: RatingProps) {
+function Rating({ rating, numReviews }) {
   return (
     <Box d="flex" alignItems="center">
       {Array(5)
