@@ -12,8 +12,8 @@ import {
     Heading,
     Text,
     useColorModeValue,
-    Link,
   } from '@chakra-ui/react';
+  import { Link } from 'react-router-dom'
   import { useState } from 'react';
   import {AiFillEye, AiFillEyeInvisible } from 'react-icons/ai'
 //   import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
@@ -89,7 +89,7 @@ import {
               </Stack>
               <Stack pt={6}>
                 <Text align={'center'}>
-                  Already a user? <Link color={'#ea8a76'}>Login</Link>
+                  Already a user? <Link to='/login' color='#ea8a76'>Login</Link>
                 </Text>
               </Stack>
             </Stack>

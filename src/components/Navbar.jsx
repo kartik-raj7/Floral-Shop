@@ -4,6 +4,7 @@ import {VscTwitter} from 'react-icons/vsc';
 import {AiOutlineInstagram,AiOutlineSearch,AiOutlineMail} from 'react-icons/ai';
 import {FaPinterestP} from 'react-icons/fa';
 import './Navbar.scss'
+import { Link } from "react-router-dom";
 export const Navbar = () => {
     const [mobile,setmobile] = useState(false);
   return (
@@ -23,11 +24,16 @@ export const Navbar = () => {
         <div className="navbar-div">
         <div className="navbar-items">
           <ul className="navbar-li-items">
-            <li className="list-items">Home</li>
-            <li className="list-items">Products</li>
-            <li className="list-items">Blog</li>
-            <li className="list-items">Track Order</li>
-            <li className="list-items">Login</li>
+          <li className="list-items">
+            <Link to='/'>Home</Link></li>
+            <li className="list-items">
+            <Link to='/products'>Products</Link></li>
+            <li className="list-items">
+            <Link to='/blog'>Blog</Link></li>
+            <li className="list-items">
+            <Link to='/track'>Track Order</Link></li>
+            <li className="list-items">
+              <Link to='/login'>Login</Link></li>
           </ul>
           </div>
       </div>
