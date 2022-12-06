@@ -6,7 +6,7 @@ function NewArrivals() {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/shoes.json')
+    fetch('http://localhost:3001/static/shoes.json')
       .then((response) => response.json())
       .then(setData);
   }, []);
